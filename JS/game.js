@@ -57,7 +57,7 @@ function gameOver() {
             grid[i][j].revealed = true;
         }
     }
-    alert('YOUR SCORE = ' + score);
+    showScore();
 }
 
 function mousePressed() {
@@ -66,6 +66,7 @@ function mousePressed() {
             if (grid[i][j].contains(mouseX, mouseY)) {
                 grid[i][j].reveal();
                 score++;
+                addScore();
                 if (grid[i][j].bee) {
                     gameOver();
                 }
