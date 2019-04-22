@@ -57,16 +57,17 @@ function gameOver() {
             grid[i][j].revealed = true;
         }
     }
-    showScore();
 }
 
 function mousePressed() {
     for (let i = 0; i < cols; i++) {
         for (let j = 0; j < rows; j++) {
             if (grid[i][j].contains(mouseX, mouseY)) {
+                if (!grid[i][j].revealed) {
+                    score++;
+                    addScore();
+                }
                 grid[i][j].reveal();
-                score++;
-                addScore();
                 if (grid[i][j].bee) {
                     gameOver();
                 }
