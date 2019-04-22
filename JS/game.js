@@ -1,5 +1,5 @@
 let grid;
-let w = 20;
+let w = 40;
 let cols;
 let rows;
 let totalBees = 10;
@@ -14,7 +14,7 @@ function make2DArray(cols, rows) {
 }
 
 function setup() {
-    createCanvas(200, 200);
+    createCanvas(400, 400);
     cols = floor(width / w);
     rows = floor(height / w);
     grid = make2DArray(cols, rows);
