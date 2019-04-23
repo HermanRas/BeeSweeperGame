@@ -1,5 +1,8 @@
-# SNAKE GAME!
-<img src=".." alt="#BeeSweeperGameLogo">
+# BEE SWEEPER GAME!
+<img src="https://github.com/HermanRas/BeeSweeperGame/blob/master/ScreenShots/Logo.png" alt="#BeeSweeperGameLogo">
+
+# Full CREDIT to @CodeTrain on youtube:
+https://www.youtube.com/watch?v=LFU5ZlrR21E
 
 ### Latest Release
  - [!["Latest Release"](https://img.shields.io/github/release/hermanras/BeeSweeperGame.svg)](https://github.com/HermanRas/BeeSweeperGame/releases)
@@ -20,13 +23,13 @@
 
 
 ## Index
-#Controls
+# Controls
 - Click on the game window and select the tile to reveal ~
-#ScoreDB
+# ScoreDB
 - Score will only save when you hit save, you can restart the game by hitting the F5 key on PC or Pulling Down on phone.
 - delete score.json to clear score history
 - edit score.json to cheat
 
 #ScreenShots
-<img src=".." alt="#BeeSweeperGame-Menu">
-<img src=".." alt="#BeeSweeperGame-Game">
+ - <img src="https://github.com/HermanRas/BeeSweeperGame/blob/master/ScreenShots/Menu.png" alt="#BeeSweeperGame-Menu">
+ - <img src="https://github.com/HermanRas/BeeSweeperGame/blob/master/ScreenShots/Game.png" alt="#BeeSweeperGame-Game">
