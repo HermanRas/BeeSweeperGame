@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="FavIcon.png" />
     <title>BeeSweeper Game!</title>
 </head>
 
 <body>
     <h1>BeeSweeper Game!</h1>
+    <img src="favicon.png" alt="Logo" width="150"><br>
     ENTER YOUR NAME TO START<br>
     <form method="GET" action="game.php">
         <input type="text" name="name" placeholder="Your Name Here" required="">
