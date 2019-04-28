@@ -21,6 +21,9 @@ https://www.youtube.com/watch?v=LFU5ZlrR21E
 ### FrameWork 
  - [!["CSS 3"](https://img.shields.io/badge/CSS-3-blue.svg)](http://www.css3.info/)
 
+### To Do
+ - add found bee marker on right click
+ - add score multiplayer on final tile or death using bee counter
 
 ## Index
 # Controls
